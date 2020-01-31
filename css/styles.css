@@ -160,26 +160,47 @@ a:hover {
 
 /* CONTACT INFOS */
 
-.contact-info {
+.general-info {
   text-align: center;
   padding: 2rem 2rem 3rem 2rem;
 }
 
-.contact-info__title {
-  text-transform: uppercase;
-  font-size: 0.9rem;
+.general-info__skills__section {
+  padding-bottom: 0rem;
 }
 
-.contact-info__text {
+.general-info__title {
+  text-transform: uppercase;
+}
+
+.general-info__text {
   color: #f7f7f7;
 }
 
-.contact-info__type {
+.general-info__skills {
+  padding: 0;
+  text-align: center;
+  display: inline-flex;
+}
+
+.general-info__skills__item {
+  border-radius: 6px;
+  background: #636363;
+  color: white;
+  padding: 5px 10px;
+  margin: 4px;
+}
+
+.general-info__contact__section {
+  padding-top: 0rem;
+}
+
+.general-info__type {
   margin-bottom: 0.5rem;
   font-weight: 600;
 }
 
-.contact-info__type__title {
+.general-info__type__title {
   margin-right: 1rem;
 }
 
@@ -231,10 +252,6 @@ a:hover {
 
   .navigation-container--header {
     padding: 0rem;
-  }
-
-  .navigation-container__title {
-    margin-bottom: 0rem;
   }
 
   .navigation-container__list {
@@ -300,14 +317,10 @@ a:hover {
 
   /* CONTACT INFOS */
 
-  .contact-info__title,
-  .contact-info__block,
-  .contact-info__text {
+  .general-info__title,
+  .general-info__text {
     font-size: 1rem;
-    padding-bottom: 1rem;
-  }
-  .contact-info__title {
-    padding: 1rem;
+    padding: 0rem 6rem;
   }
 
   /* MAIN END */
@@ -396,6 +409,10 @@ a:hover {
 
   .main-section__article__container {
     width: 31.3%;
+  }
+
+  .general-info__text {
+    padding: 0rem 10rem;
   }
 
   /* MAIN END */
